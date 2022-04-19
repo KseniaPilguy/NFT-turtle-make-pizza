@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<title>Document</title>
+</head>
+<body>
+  <!-- #b30000 -->
+
+
+  <div style="display: flex; flex-direction: column;align-items: center;margin-top: 70px;">
+  <h1>
+    Make pizza for TURTLE LAIR's bosses
+  </h1>
+  <p style="margin-top: -10px;">Ksyu#2813</p>
+  <div class="turtles">
+    <div class="turtle-block">
+      <img src="./1.png" class="turtle">
+      <p style="color: #f03f35;">@Bacchus</p>
+    </div>
+
+    <div class="turtle-block">
+      <img src="./2.png" class="turtle">
+      <p style="color: #019eda;">@Marinara</p>
+    </div>
+
+    <div class="turtle-block">
+      <img src="./3.png" class="turtle">
+      <p style="color: #f89e59;">@Peppina</p>
+    </div>
+
+    <div class="turtle-block">
+      <img src="./4.png" class="turtle">
+      <p style="color: #a68dba;">@HAALAND</p>
+    </div>
+  </div>
+  <div class="controls" style="z-index: 4;">
+    <h2>Add Some Ingredients</h2>
+    <button type="button" class="btn btn-danger" id="sauce-btn">sauce</button>
+    <button type="button" class="btn btn-primary" id="sausages-btn">sausages</button>
+    <button type="button" class="btn btn-success" id="cheese-btn">cheese</button>
+    <button type="button" class="btn btn-danger" id="tomatoes-btn">tomatoes</button>
+    <button type="button" class="btn btn-warning" id="pepper-btn">pepper</button>
+    <button type="button" class="btn btn-info" id="onion-btn">onion</button>
+    <button type="button" class="btn btn-dark" id="olives-btn">olives</button>
+    <button type="button" class="btn btn-success" id="pineapples-btn">pineapples</button>
+    <button type="button" class="btn btn-secondary" id="lettuce-btn">lettuce</button>
+    <button type="button" class="btn btn-primary" id="mushrooms-btn">mushrooms</button>
+  </div>
+
+  <div class="pizza-wrapper">
+    <div class="ingridients">
+    <div id="meat" style="opacity: 0;"> 
+      <img src="./meat.png" class="meat meat1">
+      <img src="./meat.png" class="meat meat2">
+      <img src="./meat.png" class="meat meat3">
+    </div>
+   
+    <div id="mashrooms" style="opacity: 0;"> 
+      <img src="./mashrooms.png" class="mashrooms mashrooms1">
+      <img src="./mashrooms.png" class="mashrooms mashrooms2">
+      <img src="./mashrooms.png" class="mashrooms mashrooms3">
+      <img src="./mashrooms.png" class="mashrooms mashrooms4">
+    </div>
+
+    <div id="ol" style="opacity: 0;">
+      <img src="./ol.png" class="ol ol1">
+      <img src="./ol.png" class="ol ol2">
+      <img src="./ol.png" class="ol ol3">
+      <img src="./ol.png" class="ol ol4">
+      <img src="./ol.png" class="ol ol5">
+    </div>
+
+    <div id="pineapple" style="opacity: 0;"> 
+      <img src="./pineapple.png" class="pineapple pineapple1">
+      <img src="./pineapple.png" class="pineapple pineapple2">
+      <img src="./pineapple.png" class="pineapple pineapple3">
+      <img src="./pineapple.png" class="pineapple pineapple4">
+      <img src="./pineapple.png" class="pineapple pineapple5">
+    </div>
+
+    <div id="green" style="opacity: 0;">
+      <img src="./green.png" class="green green1">
+      <img src="./green.png" class="green green2">
+      <img src="./green.png" class="green green3">
+      <img src="./green.png" class="green green4">
+    </div>
+
+    <div id="list" style="opacity: 0;"> 
+      <img src="./list.png" class="list list1">
+      <img src="./list.png" class="list list2">
+      <img src="./list.png" class="list list3">
+      <img src="./list.png" class="list list4">
+    </div>
+
+    <div id="cheese" style="opacity: 0;"> 
+      <img src="./cheese.png" class="cheese cheese1">
+      <img src="./cheese.png" class="cheese cheese2">
+      <img src="./cheese.png" class="cheese cheese3">
+      <img src="./cheese.png" class="cheese cheese4">
+      <img src="./cheese.png" class="cheese cheese5">
+      <img src="./cheese.png" class="cheese cheese6">
+      <img src="./cheese.png" class="cheese cheese7">
+    </div>
+
+    <div id="tomato"  style="opacity: 0;"> 
+      <img src="./tomato.png" class="tomato tomato1">
+      <img src="./tomato.png" class="tomato tomato2">
+      <img src="./tomato.png" class="tomato tomato3">
+      <img src="./tomato.png" class="tomato tomato4">
+      <img src="./tomato.png" class="tomato tomato5">
+      <img src="./tomato.png" class="tomato tomato6">
+      <img src="./tomato.png" class="tomato tomato7">
+      <img src="./tomato.png" class="tomato tomato8">
+    </div>
+
+    <div id="lyk" style="opacity: 0;"> 
+      <img src="./lyk.png" class="lyk lyk1">
+      <img src="./lyk.png" class="lyk lyk2">
+      <img src="./lyk.png" class="lyk lyk3">
+      <img src="./lyk.png" class="lyk lyk4">
+    </div>
+  </div>
+    <img src="./board.png" class="board">
+    <div class="pizza-dough" id="pizza-dough"></div>
+</div>
+  </div>
+  
+
+  
+
+  <script>
+    document.getElementById("sauce-btn").addEventListener("click", function() {
+      if (document.getElementById("pizza-dough").classList.contains("touched")) {
+        document.getElementById("pizza-dough").style.backgroundColor = '#e7daa8'
+        document.getElementById("pizza-dough").classList.remove("touched")
+      } else {
+        document.getElementById("pizza-dough").style.backgroundColor = '#b30000'
+        document.getElementById("pizza-dough").classList.add("touched")
+      }
+    });
+
+    document.getElementById("sausages-btn").addEventListener("click", function() {
+      if (document.getElementById("meat").classList.contains("touched")) {
+        document.getElementById("meat").style.opacity = 0
+        document.getElementById("meat").classList.remove("touched")
+      } else {
+        document.getElementById("meat").style.opacity = 1
+        document.getElementById("meat").classList.add("touched")
+      }
+    });
+
+    document.getElementById("cheese-btn").addEventListener("click", function() {
+      if (document.getElementById("cheese").classList.contains("touched")) {
+        document.getElementById("cheese").style.opacity = 0
+        document.getElementById("cheese").classList.remove("touched")
+      } else {
+        document.getElementById("cheese").style.opacity = 1
+        document.getElementById("cheese").classList.add("touched")
+      }
+    });
+
+    document.getElementById("tomatoes-btn").addEventListener("click", function() {
+      if (document.getElementById("tomato").classList.contains("touched")) {
+        document.getElementById("tomato").style.opacity = 0
+        document.getElementById("tomato").classList.remove("touched")
+      } else {
+        document.getElementById("tomato").style.opacity = 1
+        document.getElementById("tomato").classList.add("touched")
+      }
+    });
+
+    document.getElementById("pepper-btn").addEventListener("click", function() {
+      if (document.getElementById("green").classList.contains("touched")) {
+        document.getElementById("green").style.opacity = 0
+        document.getElementById("green").classList.remove("touched")
+      } else {
+        document.getElementById("green").style.opacity = 1
+        document.getElementById("green").classList.add("touched")
+      }
+    });
+
+    document.getElementById("onion-btn").addEventListener("click", function() {
+      if (document.getElementById("lyk").classList.contains("touched")) {
+        document.getElementById("lyk").style.opacity = 0
+        document.getElementById("lyk").classList.remove("touched")
+      } else {
+        document.getElementById("lyk").style.opacity = 1
+        document.getElementById("lyk").classList.add("touched")
+      }
+    });
+
+    document.getElementById("olives-btn").addEventListener("click", function() {
+      if (document.getElementById("ol").classList.contains("touched")) {
+        document.getElementById("ol").style.opacity = 0
+        document.getElementById("ol").classList.remove("touched")
+      } else {
+        document.getElementById("ol").style.opacity = 1
+        document.getElementById("ol").classList.add("touched")
+      }
+    });
+
+    document.getElementById("pineapples-btn").addEventListener("click", function() {
+      if (document.getElementById("pineapple").classList.contains("touched")) {
+        document.getElementById("pineapple").style.opacity = 0
+        document.getElementById("pineapple").classList.remove("touched")
+      } else {
+        document.getElementById("pineapple").style.opacity = 1
+        document.getElementById("pineapple").classList.add("touched")
+      }
+    });
+
+    document.getElementById("lettuce-btn").addEventListener("click", function() {
+      if (document.getElementById("list").classList.contains("touched")) {
+        document.getElementById("list").style.opacity = 0
+        document.getElementById("list").classList.remove("touched")
+      } else {
+        document.getElementById("list").style.opacity = 1
+        document.getElementById("list").classList.add("touched")
+      }
+    });
+
+    document.getElementById("mushrooms-btn").addEventListener("click", function() {
+      if (document.getElementById("mashrooms").classList.contains("touched")) {
+        document.getElementById("mashrooms").style.opacity = 0
+        document.getElementById("mashrooms").classList.remove("touched")
+      } else {
+        document.getElementById("mashrooms").style.opacity = 1
+        document.getElementById("mashrooms").classList.add("touched")
+      }
+    });
+  </script>
+</body>
+</html>

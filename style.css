@@ -1,0 +1,261 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pizza-wrapper {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+
+h1 {
+  text-align: center;
+    color: #8cc63f;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+.pizza-container {
+  position: relative;
+}
+
+.board {
+  width: 400px;
+  transform: rotate(-80deg)translate(81px, -90px);
+}
+
+.pizza-dough {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  top: 83px;
+  left: 90px;
+  background-color: #e7daa8;
+  border: 15px solid #d6723d;
+  position: absolute;
+}
+
+
+.meat {
+  position: absolute;
+  width: 60px;
+  z-index: 2;
+}
+
+.meat1 {
+  transform: translate(210px, 206px); 
+}
+
+.meat2 {
+  transform: translate(310px, 270px)rotate(26deg);
+}
+
+.meat3 {
+  transform: translate(230px, 330px)rotate(-164deg)
+}
+
+.mashrooms {
+  position: absolute;
+  width: 40px;
+  z-index: 2;
+}
+
+.mashrooms1 {
+  transform: translate(282px, 206px);
+}
+.mashrooms2 {
+  transform: translate(292px, 299px);
+}
+.mashrooms3 {
+  transform: translate(212px, 256px)rotate(45deg);
+}
+.mashrooms4 {
+  transform: translate(282px, 366px) rotate(45deg);
+}
+
+.ol {
+  position: absolute;
+  width: 25px;
+  z-index: 2;
+}
+
+.ol1 {
+  transform: translate(267px, 190px);
+}
+.ol2 {
+  transform: translate(237px, 370px)rotate(155deg);
+}
+.ol3 {
+  transform: translate(333px, 340px)rotate(45deg);
+}
+.ol4 {
+  transform: translate(177px, 260px)rotate(95deg);
+}
+.ol5 {
+  transform: translate(264px, 300px)rotate(95deg);
+}
+
+
+.pineapple {
+  position: absolute;
+  width: 25px;
+  z-index: 2;
+}
+
+.pineapple1 {
+  transform: translate(207px, 363px)rotate(-5deg);
+}
+.pineapple2 {
+  transform: translate(187px, 306px)rotate(-31deg);
+}
+.pineapple3 {
+  transform: translate(327px, 223px)rotate(69deg);
+}
+.pineapple4 {
+  transform: translate(327px, 369px)rotate(-31deg);
+}
+.pineapple5 {
+  transform: translate(287px, 259px)rotate(-31deg);
+}
+
+.green {
+  position: absolute;
+  width: 35px;
+  z-index: 2;
+}
+.green1 {
+  transform: translate(187px, 333px)rotate(-5deg);
+}
+.green2 {
+  transform: translate(354px, 307px)rotate(115deg);
+}
+.green3 {
+  transform: translate(187px, 233px)rotate(-30deg);
+}
+.green4 {
+  transform: translate(271px, 274px)rotate(60deg)scale(0.7);
+}
+
+.list {
+  position: absolute;
+  width: 40px;
+  z-index: 1;
+}
+.list1 {
+  transform: translate(187px, 283px)rotate(-5deg);
+}
+.list2 {
+  transform: translate(339px, 243px)rotate(105deg);
+}
+.list3 {
+  transform: translate(297px, 333px)rotate(-523deg);
+}
+.list4 {
+  transform: translate(247px, 233px)rotate(80deg);
+}
+
+.cheese {
+  position: absolute;
+  width: 40px;
+  z-index: 1;
+}
+.cheese1 {
+  transform: translate(225px, 283px)rotate(-5deg);
+}
+.cheese2 {
+  transform: translate(285px, 192px)rotate(-5deg);
+}
+.cheese3 {
+  transform: translate(250px, 365px)rotate(30deg);
+}
+.cheese4 {
+  transform: translate(350px, 270px)rotate(175deg);
+}
+.cheese5 {
+  transform: translate(208px, 225px)rotate(175deg)
+}
+.cheese6 {
+  transform: translate(337px, 330px)rotate(175deg);
+}
+.cheese7 {
+  transform: translate(178px, 325px)rotate(175deg);
+}
+
+.tomato {
+  position: absolute;
+  width: 40px;
+  z-index: 1;
+}
+.tomato1 {
+  transform: translate(245px, 265px)rotate(-5deg);
+}
+.tomato2 {
+  transform: translate(305px, 235px)rotate(-5deg)
+}
+.tomato3 {
+  transform: translate(274px, 325px)rotate(-5deg);
+}
+.tomato4 {
+  transform: translate(248px, 186px)rotate(-5deg);
+}
+.tomato5 {
+  transform: translate(204px, 313px)rotate(-5deg);
+}
+.tomato6 {
+  transform: translate(189px, 253px)rotate(-5deg);
+}
+.tomato7 {
+  transform: translate(224px, 366px)rotate(-5deg);
+}
+.tomato8 {
+  transform: translate(334px, 296px)rotate(-5deg);
+}
+
+
+.lyk {
+  position: absolute;
+  width: 40px;
+  z-index: 1;
+}
+.lyk1 {
+  transform: translate(166px, 285px);
+}
+.lyk2 {
+  transform: translate(288px, 279px);
+}
+.lyk3 {
+  transform: translate(298px, 363px);
+}
+.lyk4 {
+  transform: translate(318px, 205px);
+}
+
+.turtles {
+  display: flex;
+}
+.turtle {
+  width: 200px;
+}
+.turtle-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ingridients {
+  z-index: 2;
+  position: absolute;
+  transform: translate(-75px, -100px);
+}
