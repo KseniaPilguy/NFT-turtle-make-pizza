@@ -249,11 +249,6 @@ h1 {
   align-items: center;
 }
 
-h2 {
-  text-align: center;
-  margin-top: 20px;
-}
-
 .controls {
   z-index: 4;
   display: flex;
